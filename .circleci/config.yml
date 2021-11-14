@@ -14,10 +14,9 @@ jobs:
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       # - checkout
-      - run:
+      - run: echo "Welcome to my world !"
           # name: "Say hello"
-          # command: "echo Hello, World!"
-          echo "Welcome to my world !"
+          # command: "echo Hello, World!"          
   say-hi:
     docker:
       - image: circleci/node:13.8.0
